@@ -1,0 +1,33 @@
+Project Inventaris Barang adalah aplikasi berbasis web sederhana yang digunakan untuk mengelola data inventaris barang pada suatu instansi atau organisasi. Aplikasi ini dibuat menggunakan PHP, MySQL sebagai basis data, serta Bootstrap untuk mempercantik tampilan antarmuka.
+ Fitur Utama:
+Manajemen Barang:
+Menampilkan daftar barang.
+Menambahkan barang baru.
+Mengedit data barang.
+Menghapus data barang.
+
+Manajemen Kategori:
+Mengelola kategori barang untuk pengelompokan yang lebih terstruktur.
+
+Ekspor Data:
+Menyediakan fitur export ke Excel untuk keperluan laporan.
+
+Desain Responsif:
+Menggunakan Bootstrap agar tampilan lebih menarik dan dapat diakses di berbagai perangkat.
+
+Struktur File Penting:
+index.php → Halaman utama yang menampilkan data barang.
+tambah.php, edit.php, hapus.php → CRUD barang.
+kategori.php → Kelola kategori barang.
+export_excel.php → Ekspor data ke format Excel.
+koneksi.php → Koneksi database.
+navbar.php → Navigasi halaman.
+data_inventaris_barang.sql → Struktur & sample data database.
+
+Tampilan:
+Sudah menggunakan Bootstrap untuk styling.
+Background, tombol, dan tabel didesain agar user-friendly.
+Penambahan warna di bagian header tabel membuat tampilan lebih profesional.
+
+Tujuan Project:
+Aplikasi ini ditujukan untuk membantu mempermudah proses pencatatan dan pelaporan inventaris barang agar lebih terstruktur, efisien, dan mudah diakses.
